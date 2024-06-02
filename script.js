@@ -23,6 +23,8 @@ document.getElementById('level-description').innerText = levels[currentLevel].de
 function collectToken() {
     document.getElementById('token').style.display = 'none';
     document.getElementById('next-level').style.display = 'block';
+        alert(levels[currentLevel].message);
+
 }
 
 function nextLevel() {
